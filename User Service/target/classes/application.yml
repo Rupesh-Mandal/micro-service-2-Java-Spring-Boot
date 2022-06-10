@@ -1,0 +1,21 @@
+server:
+  port: 8002
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/micro
+    username: postgres
+    password: kali
+  zipkin:
+    base-url: http://127.0.0.1:9411/
+
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+
+  application:
+    name: USER-SERVICE
+
+
+

@@ -1,0 +1,20 @@
+server:
+  port: 8001
+
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/micro
+    username: postgres
+    password: kali
+
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+
+  application:
+    name: DEPARTMENT-SERVICE
+
+
+
